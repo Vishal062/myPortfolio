@@ -2,9 +2,9 @@ import React from "react";
 
 import Button from "react-bootstrap/Button";
 import sample from "../../images/projects/Internshala.png";
-import sample1 from "../../images/projects/product-hunt-alpha.mp4";
-import sample2 from "../../images/projects/dineout.mp4";
-import sample3 from "../../images/projects/livechat.mp4";
+import sample1 from "../../images/projects/Nutrify.png";
+// import sample2 from "../../images/projects/dineout.mp4";
+// import sample3 from "../../images/projects/livechat.mp4";
 import "./projects.styles.css";
 
 const TimeLine = () => {
@@ -19,7 +19,7 @@ const TimeLine = () => {
                 <h1>INTERNSHALA CLONE</h1>
                 <div style={{ width: "fit-content" }}>
                   {/* <video className="videoTag" autoPlay loop muted controls> */}
-                    <img className="videoTag" src={sample} type="Image/png" />
+                    <img className="videoTag" alt="Internshala" src={sample} type="Image/png" />
                   {/* </video> */}
                 </div>
                 <p>
@@ -55,9 +55,9 @@ const TimeLine = () => {
               <div className="timeline-content">
                 <h1>NUTRIFY APP</h1>
                 <div style={{ width: "fit-content" }}>
-                  <video className="videoTag" autoPlay loop muted controls>
-                    <source src={sample2} type="video/mp4" />
-                  </video>
+                  {/* <video className="videoTag" autoPlay loop muted controls> */}
+                  <img className="videoTag" alt="Nutrify" src={sample1} type="Image/png" />
+                  {/* </video> */}
                 </div>
                 <p>
                 Nutrify mainly gives information about the health condition of the user along with proper result 
@@ -66,7 +66,7 @@ const TimeLine = () => {
                 </p>
                 <div>
                   <a
-                    href="https://github.com/ashish921998/Hexagon"
+                    href="https://github.com/Vishal062/Nutrify-Unit-4-Project-"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -75,18 +75,18 @@ const TimeLine = () => {
                     </Button>
                   </a>
                   <a
-                    href="https://github.com/ashish921998/Hexagon"
+                    href="https://nutrifyunit4.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="m-2" variant="outline-light">
-                      Source Code
+                      Live Demo
                     </Button>
                   </a>
                 </div>
               </div>
             </li>
-            <li>
+            {/* <li>
               <div className="timeline-content">
                 <h1>GOOGLE MEET CLONE</h1>
                 <div style={{ width: "fit-content" }}>
@@ -112,8 +112,8 @@ const TimeLine = () => {
                   </a>
                 </div>
               </div>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <div className="timeline-content">
                 <h1>LIVE CHAT</h1>
                 <div style={{ width: "fit-content" }}>
@@ -137,7 +137,7 @@ const TimeLine = () => {
                   </a>
                 </div>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div><br/>

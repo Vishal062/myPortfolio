@@ -12,6 +12,21 @@ const Contact = () => {
       <Jumbotron className="contact-jumbotron">
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
+          <div className="m-2">
+              <a
+                href="+91-9113719883"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  variant="outline-danger"
+                  title="+91-9113719883"
+                >
+                  <i className="fa fa-phone-square" aria-hidden="true"></i> Call me
+                </Button>
+              </a>
+            </div>
+            
             <div className="m-2">
               <a
                 href="mailto:vs9425348@gmail.com"
