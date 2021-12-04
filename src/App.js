@@ -7,7 +7,7 @@ import About from "./pages/About/about";
 import Container from "react-bootstrap/Container";
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
+// import Slide from "react-reveal/Slide";
 import Skills from "./pages/Skills/skills";
 import TimeLine from "./components/Projects/projects";
 import Contact from "./pages/Contact/contact";

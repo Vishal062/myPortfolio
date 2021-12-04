@@ -1,6 +1,6 @@
 import React from "react";
 import "./carousel.styles.css";
-import Slide1 from "../../images/carousel/key.jpg";
+// import Slide1 from "../../images/carousel/key.jpg";
 
 
 const MyCarousel = () => {
