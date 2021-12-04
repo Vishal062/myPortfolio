@@ -1,7 +1,7 @@
 import React from "react";
 
 import Button from "react-bootstrap/Button";
-import sample from "../../images/projects/googlemeet.mp4";
+import sample from "../../images/projects/Internshala.png";
 import sample1 from "../../images/projects/product-hunt-alpha.mp4";
 import sample2 from "../../images/projects/dineout.mp4";
 import sample3 from "../../images/projects/livechat.mp4";
@@ -16,21 +16,57 @@ const TimeLine = () => {
           <ul>
             <li>
               <div className="timeline-content">
-                <h1>PRODUCT HUNT CLONE</h1>
+                <h1>INTERNSHALA CLONE</h1>
                 <div style={{ width: "fit-content" }}>
-                  <video className="videoTag" autoPlay loop muted controls>
-                    <source src={sample1} type="video/mp4" />
-                  </video>
+                  {/* <video className="videoTag" autoPlay loop muted controls> */}
+                    <img className="videoTag" src={sample} type="Image/png" />
+                  {/* </video> */}
                 </div>
                 <p>
-                  Product Hunt Alpha is a product research website where users
-                  can research products also add their own products.This was a
-                  collaborative one built as a construct week project along with
-                  three more developers.
+                This is a clone of the Internshala website. We built this as part of the construct week project at Masai School. 
+                This clone is built in vanilla javascript, html, css with backend. This was a collaborative one built as a construct 
+                week project along with three more developers.
                 </p>
                 <div>
                   <a
-                    href="https://github.com/nitansh11/product-hunt"
+                    href="https://github.com/Vishal062/Backend-Internshala"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button className="m-2" variant="outline-light">
+                      Source Code
+                    </Button>
+                    
+                  </a>
+                  <a
+                    href="https://blooming-bastion-29120.herokuapp.com/pages/index.ejs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button className="m-2" variant="outline-light">
+                      Live Demo
+                    </Button>
+                    
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="timeline-content">
+                <h1>NUTRIFY APP</h1>
+                <div style={{ width: "fit-content" }}>
+                  <video className="videoTag" autoPlay loop muted controls>
+                    <source src={sample2} type="video/mp4" />
+                  </video>
+                </div>
+                <p>
+                Nutrify mainly gives information about the health condition of the user along with proper result 
+                in form of a report and also suggest different nutritious food items in order improve the user-health 
+                condition.This was a collaborative one built as a construct week project along with two more developers.
+                </p>
+                <div>
+                  <a
+                    href="https://github.com/ashish921998/Hexagon"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -38,24 +74,6 @@ const TimeLine = () => {
                       Source Code
                     </Button>
                   </a>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="timeline-content">
-                <h1>DINEOUT CLONE</h1>
-                <div style={{ width: "fit-content" }}>
-                  <video className="videoTag" autoPlay loop muted controls>
-                    <source src={sample2} type="video/mp4" />
-                  </video>
-                </div>
-                <p>
-                  Dineout is a restaurant table reservation application allowing
-                  diners to reserve a guaranteed table at the top restaurants in
-                  the city.This was a collaborative one built as a construct
-                  week project along with two more developers.
-                </p>
-                <div>
                   <a
                     href="https://github.com/ashish921998/Hexagon"
                     target="_blank"

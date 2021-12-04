@@ -3,7 +3,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import "./skills.styles.css";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { IoLogoSass } from "react-icons/io5";
+import { IoLogoNpm } from "react-icons/io5";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiRedux } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io5";
@@ -31,8 +31,8 @@ const Skills = () => {
     <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"7px"}}>React JS</p>
     </div>
     <div class="flex-item-left">
-    <IoLogoSass  size={96} className= "top-react-icons"/>
-    <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"5px"}}>Sass</p>
+    <IoLogoNpm  size={96} className= "top-react-icons"/>
+    <p style={{color:"#ffffff",fontSize:"25px",textAlign:"center",paddingLeft:"10px",paddingRight:"10px",paddingTop:"5px"}}>N P M </p>
     </div>
     <div class="flex-item-left">
     <SiRedux  size={89} className= "top-react-icons"/>
