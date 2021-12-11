@@ -4,7 +4,14 @@
   font-size: 1.2em;
   /* margin-left:40% */
 }
+/* .h1,h1{
 
+  line-height: 3.2;
+} */
+.headingTop{
+  margin-top:100px;
+  line-height: 3.2;
+}
 .profile {
   max-width: 18em;
   max-height: 18em;

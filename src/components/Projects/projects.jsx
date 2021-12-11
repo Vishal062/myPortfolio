@@ -10,7 +10,7 @@ import "./projects.styles.css";
 const TimeLine = () => {
   return (
     <>
-      <h1 className=" text-center font-details ">PROJECTS</h1><br/>
+      <h1 className=" text-center font-details headingTop1">PROJECTS</h1><br/>
       <div className="container1" id="projects">
         <div className="timeline">
           <ul>

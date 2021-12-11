@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <>
     <div id="skills">
-    <h1 className="pt-3 text-center font-details pb-3">TECH STACK</h1>
+    <h1 className="pt-3 text-center font-details pb-3 headingTop">TECH STACK</h1>
     <div class="flex-container">
   <div class="flex-item-left">
     <AiFillHtml5 size={98}  className="top-react-icons"/>
