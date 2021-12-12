@@ -25,7 +25,8 @@ const TimeLine = () => {
                 <p>
                 This is a clone of the Internshala website. We built this as part of the construct week project at Masai School. 
                 This clone is built in vanilla javascript, html, css with backend. This was a collaborative one built as a construct 
-                week project along with three more developers.
+                week project along with three more developers.My role is creating Home page design and outlay,Internship details page with 
+                file uploading functionality(Resume). 
                 </p>
                 <div>
                   <a
@@ -63,6 +64,7 @@ const TimeLine = () => {
                 Nutrify mainly gives information about the health condition of the user along with proper result 
                 in form of a report and also suggest different nutritious food items in order improve the user-health 
                 condition.This was a collaborative one built as a construct week project along with two more developers.
+                My role is completed Home page component using react connect data with backend.
                 </p>
                 <div>
                   <a
