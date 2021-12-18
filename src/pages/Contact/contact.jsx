@@ -14,7 +14,7 @@ const Contact = () => {
           <Col className="d-flex justify-content-center flex-wrap">
           <div className="m-2">
               <a
-                href="+91-9113719883"
+                href="tel:+91-9113719883"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -22,7 +22,7 @@ const Contact = () => {
                   variant="outline-danger"
                   title="+91-9113719883"
                 >
-                  <i className="fa fa-phone-square" aria-hidden="true"></i> Call me
+                  <i className="fas fa-phone-alt" aria-hidden="true"></i> Call me
                 </Button>
               </a>
             </div>
